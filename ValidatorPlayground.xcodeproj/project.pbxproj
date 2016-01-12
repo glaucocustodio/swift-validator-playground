@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F572B20CEC2A5DAA45AEC0F /* Pods_ValidatorPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402346B2DC48DDEA1173CD29 /* Pods_ValidatorPlayground.framework */; };
 		51DFF7111C45375600D76CF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFF7101C45375600D76CF5 /* AppDelegate.swift */; };
 		51DFF7131C45375600D76CF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFF7121C45375600D76CF5 /* ViewController.swift */; };
 		51DFF7161C45375600D76CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DFF7141C45375600D76CF5 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		51DFF71B1C45375600D76CF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DFF7191C45375600D76CF5 /* LaunchScreen.storyboard */; };
 		51DFF7261C45375600D76CF5 /* ValidatorPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFF7251C45375600D76CF5 /* ValidatorPlaygroundTests.swift */; };
 		51DFF7311C45375600D76CF5 /* ValidatorPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFF7301C45375600D76CF5 /* ValidatorPlaygroundUITests.swift */; };
+		51DFF73F1C45397D00D76CF5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 51DFF73E1C45397D00D76CF5 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09C14DAB4EE8FFBA332D5541 /* Pods-ValidatorPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidatorPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValidatorPlayground/Pods-ValidatorPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		402346B2DC48DDEA1173CD29 /* Pods_ValidatorPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValidatorPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DFF70D1C45375600D76CF5 /* ValidatorPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DFF7101C45375600D76CF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DFF7121C45375600D76CF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		51DFF72C1C45375600D76CF5 /* ValidatorPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidatorPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DFF7301C45375600D76CF5 /* ValidatorPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorPlaygroundUITests.swift; sourceTree = "<group>"; };
 		51DFF7321C45375600D76CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DFF73E1C45397D00D76CF5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E9FFCCD3147E8538225CE6F9 /* Pods-ValidatorPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidatorPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ValidatorPlayground/Pods-ValidatorPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F572B20CEC2A5DAA45AEC0F /* Pods_ValidatorPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37F6989DB327513CDAA606B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				402346B2DC48DDEA1173CD29 /* Pods_ValidatorPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49A0B043C8A98FA31ABD8003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9FFCCD3147E8538225CE6F9 /* Pods-ValidatorPlayground.debug.xcconfig */,
+				09C14DAB4EE8FFBA332D5541 /* Pods-ValidatorPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		51DFF7041C45375600D76CF5 = {
 			isa = PBXGroup;
 			children = (
+				51DFF73E1C45397D00D76CF5 /* Podfile */,
 				51DFF70F1C45375600D76CF5 /* ValidatorPlayground */,
 				51DFF7241C45375600D76CF5 /* ValidatorPlaygroundTests */,
 				51DFF72F1C45375600D76CF5 /* ValidatorPlaygroundUITests */,
 				51DFF70E1C45375600D76CF5 /* Products */,
+				49A0B043C8A98FA31ABD8003 /* Pods */,
+				37F6989DB327513CDAA606B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51DFF7351C45375700D76CF5 /* Build configuration list for PBXNativeTarget "ValidatorPlayground" */;
 			buildPhases = (
+				8D7F93E5488D71D8E0DDAB58 /* Check Pods Manifest.lock */,
 				51DFF7091C45375600D76CF5 /* Sources */,
 				51DFF70A1C45375600D76CF5 /* Frameworks */,
 				51DFF70B1C45375600D76CF5 /* Resources */,
+				83EA15E6AFD5173787432F9A /* Embed Pods Frameworks */,
+				72D665586EF71F9D68C27D26 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +261,7 @@
 			files = (
 				51DFF71B1C45375600D76CF5 /* LaunchScreen.storyboard in Resources */,
 				51DFF7181C45375600D76CF5 /* Assets.xcassets in Resources */,
+				51DFF73F1C45397D00D76CF5 /* Podfile in Resources */,
 				51DFF7161C45375600D76CF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72D665586EF71F9D68C27D26 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValidatorPlayground/Pods-ValidatorPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83EA15E6AFD5173787432F9A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValidatorPlayground/Pods-ValidatorPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7F93E5488D71D8E0DDAB58 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51DFF7091C45375600D76CF5 /* Sources */ = {
@@ -397,6 +476,7 @@
 		};
 		51DFF7361C45375700D76CF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FFCCD3147E8538225CE6F9 /* Pods-ValidatorPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ValidatorPlayground/Info.plist;
@@ -408,6 +488,7 @@
 		};
 		51DFF7371C45375700D76CF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C14DAB4EE8FFBA332D5541 /* Pods-ValidatorPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ValidatorPlayground/Info.plist;
@@ -484,6 +565,7 @@
 				51DFF7371C45375700D76CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51DFF7381C45375700D76CF5 /* Build configuration list for PBXNativeTarget "ValidatorPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				51DFF73A1C45375700D76CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51DFF73B1C45375700D76CF5 /* Build configuration list for PBXNativeTarget "ValidatorPlaygroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				51DFF73D1C45375700D76CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,19 @@
+PODS:
+  - SwiftValidator (3.0.1)
+
+DEPENDENCIES:
+  - SwiftValidator (from `https://github.com/glaucocustodio/SwiftValidator.git`)
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :git: https://github.com/glaucocustodio/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: f8079050eb521c97647ee17d720905ced1e3c0e9
+    :git: https://github.com/glaucocustodio/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  SwiftValidator: 461a2c00173f001287a8fa1f12704b87ec8a6bc4
+
+COCOAPODS: 0.39.0
